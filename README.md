@@ -1,6 +1,7 @@
 🔧 Binary Offset Writer – User Guide
 
 This small program allows you to write binary data into specific locations inside another binary file. It’s useful for firmware tuning, patching or updating internal data blocks in system libraries.
+
 💡 What it does:
 
     You open a binary file (.bin or .so).
@@ -11,6 +12,7 @@ This small program allows you to write binary data into specific locations insid
 
     You click “Write data to offset” to insert data into the selected location.
 
+
 🧩 Offset map example:
 
 GainMap1|0x3738,0xD454|0xDD0
@@ -20,6 +22,7 @@ GainMap1|0x3738,0xD454|0xDD0
     0x3738,0xD454: memory addresses where the data will be written.
 
     0xDD0: how many bytes will be written.
+
 
 ✍️ How to use:
 
